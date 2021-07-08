@@ -2,17 +2,17 @@
 const axios = require("axios");
 
 const handler = async (event) => {
-  const API_SECRET = process.env.API_SECRET
-  const url = `https://v6.exchangerate-api.com/v6/${API_SECRET}/codes`
+  const API_SECRET = process.env.API_SECRET;
+  const url = `https://v6.exchangerate-api.com/v6/${API_SECRET}/codes`;
   try {
-    const {data} = await axios.get(url)
+    const { data } = await axios.get(url);
     return {
       statusCode: 200,
-      body: JSON.stringify(data)
-    }
+      body: JSON.stringify(data),
+    };
   } catch (error) {
-    return { statusCode: 500, body: error.toString() }
+    return { statusCode: 500, body: error.toString() };
   }
-}
+};
 
-module.exports = { handler }
+module.exports = { handler };
