@@ -6,4 +6,6 @@ Currency Converter is a simple currency conversion app created with React and Bo
 
 This app uses [ExchangeRate-API](https://app.exchangerate-api.com/) to retrieve exchange rates and Netlify serverless functions to hide the API key.
 
-You can learn more about me and my work on my website, [https://www.nowcodethis.com](https://www.nowcodethis.com).
+You can view this project [here](https://nowcodethis-currency-converter-app.netlify.app/)
+
+Learn more about me and my work on my website, [https://www.nowcodethis.com](https://www.nowcodethis.com).
